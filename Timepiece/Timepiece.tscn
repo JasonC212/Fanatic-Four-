@@ -23,6 +23,5 @@ texture = ExtResource( 3 )
 texture_scale = 5.0
 energy = 0.5
 shadow_enabled = true
-shadow_item_cull_mask = 0
 
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
