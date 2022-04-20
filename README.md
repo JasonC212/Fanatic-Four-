@@ -24,7 +24,7 @@ The code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Cha
 
 ## Future Development
 
-# Created by: Group Name
+# Created by: Fanatic Four
 Jane Negus -
 
 Jess Payton -
