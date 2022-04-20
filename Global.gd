@@ -1,16 +1,21 @@
 extends Node
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
+var current_time = 0
+var total_time = 0
 func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	current_time = 15
+	
+	
+func update_current_time(t):
+	current_time += t;
+	var time_left = get_node_or_null("/root/Game/UI/HUD/Time_Left")
+	if time_left != null:
+		time_left.text = "Time Left : " + str(current_time)
+	if current_time <= 0:
+		get_tree().quit()
+	
+func update_total_time(t):
+	total_time += t
+	var time = get_node_or_null("/root/Game/UI/HUD/Total_Time")
+	if time != null:
+		time.text = str(total_time) + " : Time Collected"
