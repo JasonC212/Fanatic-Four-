@@ -21,6 +21,9 @@ Assets, or resources used
 
 # Created by: Group Name
 Jane Negus -
+
 Jess Payton -
+
 Taylor Gibson -
+
 Jason Edwards - Programer 
