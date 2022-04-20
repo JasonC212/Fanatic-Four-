@@ -529,15 +529,26 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="Quit" type="Button" parent="UI/Menu"]
+[node name="Restart" type="Button" parent="UI/Menu"]
 margin_left = 462.0
 margin_top = 350.0
 margin_right = 562.0
 margin_bottom = 390.0
+text = "Restart"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="Button" parent="UI/Menu"]
+margin_left = 462.0
+margin_top = 400.0
+margin_right = 562.0
+margin_bottom = 440.0
 text = "Quit"
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
+[connection signal="pressed" from="UI/Menu/Restart" to="UI/Menu" method="_on_Restart_pressed"]
 [connection signal="pressed" from="UI/Menu/Quit" to="UI/Menu" method="_on_Quit_pressed"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
