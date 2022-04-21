@@ -14,6 +14,11 @@
 [ext_resource path="res://Assets/spriteframes/crouching.png" type="Texture" id=12]
 [ext_resource path="res://Assets/spriteframes/standing_running.png" type="Texture" id=13]
 
+[sub_resource type="AtlasTexture" id=30]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 160, 0, 80, 80 )
+
 [sub_resource type="AtlasTexture" id=31]
 flags = 4
 atlas = ExtResource( 12 )
@@ -28,16 +33,6 @@ region = Rect2( 80, 0, 80, 80 )
 flags = 4
 atlas = ExtResource( 12 )
 region = Rect2( 160, 0, 80, 80 )
-
-[sub_resource type="AtlasTexture" id=30]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 160, 0, 80, 80 )
-
-[sub_resource type="AtlasTexture" id=34]
-flags = 4
-atlas = ExtResource( 13 )
-region = Rect2( 0, 0, 80, 80 )
 
 [sub_resource type="AtlasTexture" id=25]
 flags = 4
@@ -74,21 +69,21 @@ flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 80, 0, 80, 80 )
 
+[sub_resource type="AtlasTexture" id=34]
+flags = 4
+atlas = ExtResource( 13 )
+region = Rect2( 0, 0, 80, 80 )
+
 [sub_resource type="SpriteFrames" id=15]
 animations = [ {
-"frames": [ SubResource( 31 ), SubResource( 32 ), SubResource( 33 ) ],
-"loop": false,
-"name": "Jumping",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 30 ) ],
 "loop": true,
 "name": "WallJump",
 "speed": 5.0
 }, {
-"frames": [ SubResource( 34 ) ],
-"loop": true,
-"name": "Idle",
+"frames": [ SubResource( 31 ), SubResource( 32 ), SubResource( 33 ) ],
+"loop": false,
+"name": "Jumping",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ) ],
@@ -99,6 +94,11 @@ animations = [ {
 "frames": [ SubResource( 37 ), SubResource( 36 ) ],
 "loop": false,
 "name": "Falling",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 34 ) ],
+"loop": true,
+"name": "Idle",
 "speed": 5.0
 } ]
 

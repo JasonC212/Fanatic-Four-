@@ -721,8 +721,13 @@ position = Vector2( 1442, 659 )
 [node name="Timepiece2" parent="Timepiece_Container" instance=ExtResource( 7 )]
 position = Vector2( 5595, 796 )
 
+[node name="Timepiece3" parent="Timepiece_Container" instance=ExtResource( 7 )]
+position = Vector2( 9030, 723 )
+
+[node name="Timepiece4" parent="Timepiece_Container" instance=ExtResource( 7 )]
+position = Vector2( 12023, 857 )
+
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color( 0.156863, 0.156863, 0.156863, 1 )
 
 [node name="Camera" type="Camera2D" parent="."]
