@@ -1,4 +1,4 @@
-# Project Name
+# Lost Seconds
 MSCH-C220 Game Jam, April 2022
 
 ## Theme
