@@ -18,6 +18,8 @@ Included animated sprites, score, music, win/lose senarios,
 
 All visual assets are originals by Jane. This includes the monster, terrain, background, etc.
 
+Other sounds are origonals by Jess unless specified below. 
+
 Forest sound https://freesound.org/people/klankbeeld/sounds/629026/ expanded upon by Jess
 
 Title theme https://freesound.org/people/klankbeeld/sounds/133100/
