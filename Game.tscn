@@ -779,7 +779,6 @@ position = Vector2( 9030, 723 )
 position = Vector2( 12023, 857 )
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-visible = false
 color = Color( 0.156863, 0.156863, 0.156863, 1 )
 
 [node name="Camera" type="Camera2D" parent="."]
