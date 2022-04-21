@@ -24,12 +24,14 @@ Forest sound https://freesound.org/people/klankbeeld/sounds/629026/ expanded upo
 
 Title theme https://freesound.org/people/klankbeeld/sounds/133100/
 
+Font 8-Bit Limit from https://www.1001fonts.com/pixel-fonts.html?page=6
+
 ## References
 The Player code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Character 
 
 ## Future Development
 
-Possible expantion of sound and maybe procedural generation of terrain. 
+Possible expansion of sound and maybe procedural generation of terrain. 
 
 # Created by: Fanatic Four
 Jane Negus - Artist
