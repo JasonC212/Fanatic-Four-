@@ -80,6 +80,7 @@ position = Vector2( 504, 310.5 )
 scale = Vector2( 1.96094, 1.97266 )
 frames = SubResource( 8 )
 animation = "move"
+frame = 1
 playing = true
 
 [node name="Label" type="Label" parent="."]
@@ -107,10 +108,10 @@ __meta__ = {
 }
 
 [node name="Start" type="Button" parent="."]
-margin_left = 462.0
-margin_top = 300.0
-margin_right = 562.0
-margin_bottom = 340.0
+margin_left = 681.0
+margin_top = 296.0
+margin_right = 781.0
+margin_bottom = 336.0
 text = "Restart"
 __meta__ = {
 "_edit_use_anchors_": false
