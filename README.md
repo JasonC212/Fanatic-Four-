@@ -13,7 +13,8 @@ Struggles or surprises you encountered during the development of the game
 
 ## Implementation
 Features
-Assets, or resources used
+Assets, or resoures used 
+Forest sound https://freesound.org/people/klankbeeld/sounds/629026/
 
 ## References
 The terrain spritemap is from the Abstract Platformer package available at Kenney.nl.
@@ -25,10 +26,10 @@ The code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Cha
 ## Future Development
 
 # Created by: Fanatic Four
-Jane Negus -
+Jane Negus - Artist
 
-Jess Payton -
+Jess Payton - Sound Designer
 
-Taylor Gibson -
+Taylor Gibson - 
 
 Jason Edwards - Programer 
