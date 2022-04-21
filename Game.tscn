@@ -711,7 +711,7 @@ tile_set = SubResource( 31 )
 collision_layer = 31
 collision_mask = 31
 format = 1
-tile_data = PoolIntArray( 196626, 21, 0, 262152, 21, 0, 655378, 31, 0, 655381, 20, 0, 655383, 0, 0, 720903, 20, 0, 720909, 20, 0, 786473, 20, 0, 786474, 0, 0, 786477, 31, 0 )
+tile_data = PoolIntArray( 196626, 21, 0, 262152, 21, 0, 589988, 30, 0, 655378, 31, 0, 655381, 20, 0, 655383, 0, 0, 720903, 20, 0, 720909, 20, 0, 786473, 20, 0, 786474, 0, 0, 786477, 31, 0 )
 
 [node name="Timepiece_Container" type="Node2D" parent="."]
 
@@ -728,6 +728,7 @@ position = Vector2( 9030, 723 )
 position = Vector2( 12023, 857 )
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
+visible = false
 color = Color( 0.156863, 0.156863, 0.156863, 1 )
 
 [node name="Camera" type="Camera2D" parent="."]
