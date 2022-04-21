@@ -779,11 +779,7 @@ position = Vector2( 9030, 723 )
 position = Vector2( 12023, 857 )
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-<<<<<<< Updated upstream
-color = Color( 0.156863, 0.156863, 0.156863, 1 )
-=======
 color = Color( 0.352941, 0.352941, 0.352941, 1 )
->>>>>>> Stashed changes
 
 [node name="Camera" type="Camera2D" parent="."]
 position = Vector2( 517, 531 )
