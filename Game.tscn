@@ -1,4 +1,4 @@
-[gd_scene load_steps=56 format=2]
+[gd_scene load_steps=60 format=2]
 
 [ext_resource path="res://Assets/tiles/bush.png" type="Texture" id=1]
 [ext_resource path="res://UI/Camera2D.gd" type="Script" id=2]
@@ -43,6 +43,9 @@
 [ext_resource path="res://Assets/tiles/grasscorner.png" type="Texture" id=41]
 [ext_resource path="res://Assets/tiles/dirtfiller.png" type="Texture" id=42]
 [ext_resource path="res://Assets/tiles/lantern.png" type="Texture" id=43]
+[ext_resource path="res://Assets/tiles/cabindoor.png" type="Texture" id=44]
+[ext_resource path="res://Assets/tiles/cabin.png" type="Texture" id=45]
+[ext_resource path="res://Door2.gd" type="Script" id=46]
 
 [sub_resource type="ConvexPolygonShape2D" id=32]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
@@ -603,6 +606,23 @@ points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )
 31/shape_one_way_margin = 0.0
 31/shapes = [  ]
 31/z_index = 0
+32/name = "cabin.png 32"
+32/texture = ExtResource( 45 )
+32/tex_offset = Vector2( 0, 0 )
+32/modulate = Color( 1, 1, 1, 1 )
+32/region = Rect2( 64, 32, 416, 256 )
+32/tile_mode = 0
+32/occluder_offset = Vector2( 0, 0 )
+32/navigation_offset = Vector2( 0, 0 )
+32/shape_offset = Vector2( 0, 0 )
+32/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+32/shape_one_way = false
+32/shape_one_way_margin = 0.0
+32/shapes = [  ]
+32/z_index = 0
+
+[sub_resource type="RectangleShape2D" id=43]
+extents = Vector2( 15.657, 39.4521 )
 
 [node name="Game" type="Node2D"]
 script = ExtResource( 6 )
@@ -645,7 +665,7 @@ tile_set = SubResource( 31 )
 collision_layer = 31
 collision_mask = 31
 format = 1
-tile_data = PoolIntArray( 196632, 21, 0, 196637, 21, 0, 262145, 21, 0, 327694, 1, 0, 393248, 1, 0, 655388, 0, 0, 720900, 0, 0, 720902, 31, 0, 720948, 10, 0, 720949, 30, 0, 720950, 30, 0, 720951, 30, 0, 720952, 30, 0, 720953, 30, 0, 720954, 30, 0, 720955, 30, 0, 720956, 30, 0, 720957, 30, 0, 720958, 30, 0, 786466, 15, 0, 786467, 13, 0, 786468, 13, 0, 786469, 13, 0, 786470, 14, 0, 786483, 10, 0, 786484, 30, 0, 786485, 30, 0, 786486, 30, 0, 786487, 30, 0, 786488, 30, 0, 786489, 30, 0, 786490, 30, 0, 786491, 30, 0, 786492, 30, 0, 786493, 30, 0, 786494, 30, 0, 852018, 10, 0, 852019, 30, 0, 852020, 30, 0, 852021, 30, 0, 852022, 30, 0, 852023, 30, 0, 852024, 30, 0, 852025, 30, 0, 852026, 30, 0, 852027, 30, 0, 852028, 30, 0, 852029, 30, 0, 852030, 30, 0, 917554, 30, 0, 917555, 30, 0, 917556, 30, 0, 917557, 30, 0, 917558, 30, 0, 917559, 30, 0, 917560, 30, 0, 917561, 30, 0, 917562, 30, 0, 917563, 30, 0, 917564, 30, 0, 917565, 30, 0, 917566, 30, 0, 983090, 30, 0, 983091, 30, 0, 983092, 30, 0, 983093, 30, 0, 983094, 30, 0, 983095, 30, 0, 983096, 30, 0, 983097, 30, 0, 983098, 30, 0, 983099, 30, 0, 983100, 30, 0, 983101, 30, 0, 983102, 30, 0 )
+tile_data = PoolIntArray( 196632, 21, 0, 196637, 21, 0, 262145, 21, 0, 327694, 1, 0, 393248, 1, 0, 589923, 32, 0, 655388, 0, 0, 720900, 0, 0, 720902, 31, 0, 720948, 10, 0, 720949, 30, 0, 720950, 30, 0, 720951, 30, 0, 720952, 30, 0, 720953, 30, 0, 720954, 30, 0, 720955, 30, 0, 720956, 30, 0, 720957, 30, 0, 720958, 30, 0, 786466, 15, 0, 786467, 13, 0, 786468, 13, 0, 786469, 13, 0, 786470, 14, 0, 786483, 10, 0, 786484, 30, 0, 786485, 30, 0, 786486, 30, 0, 786487, 30, 0, 786488, 30, 0, 786489, 30, 0, 786490, 30, 0, 786491, 30, 0, 786492, 30, 0, 786493, 30, 0, 786494, 30, 0, 852018, 10, 0, 852019, 30, 0, 852020, 30, 0, 852021, 30, 0, 852022, 30, 0, 852023, 30, 0, 852024, 30, 0, 852025, 30, 0, 852026, 30, 0, 852027, 30, 0, 852028, 30, 0, 852029, 30, 0, 852030, 30, 0, 917554, 30, 0, 917555, 30, 0, 917556, 30, 0, 917557, 30, 0, 917558, 30, 0, 917559, 30, 0, 917560, 30, 0, 917561, 30, 0, 917562, 30, 0, 917563, 30, 0, 917564, 30, 0, 917565, 30, 0, 917566, 30, 0, 983090, 30, 0, 983091, 30, 0, 983092, 30, 0, 983093, 30, 0, 983094, 30, 0, 983095, 30, 0, 983096, 30, 0, 983097, 30, 0, 983098, 30, 0, 983099, 30, 0, 983100, 30, 0, 983101, 30, 0, 983102, 30, 0 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 31 )
@@ -668,6 +688,25 @@ collision_layer = 31
 collision_mask = 31
 format = 1
 tile_data = PoolIntArray( 196626, 21, 0, 262152, 21, 0, 655378, 31, 0, 655381, 20, 0, 655383, 0, 0, 720903, 20, 0, 720909, 20, 0, 786473, 20, 0, 786474, 0, 0, 786477, 31, 0 )
+
+[node name="Door2" type="Area2D" parent="."]
+position = Vector2( 6518.5, 733.5 )
+scale = Vector2( 0.638672, 0.684375 )
+script = ExtResource( 46 )
+
+[node name="Door3" type="Sprite" parent="Door2"]
+position = Vector2( -7.82845, 0.730683 )
+scale = Vector2( 0.749237, 0.986302 )
+texture = ExtResource( 44 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Door2"]
+position = Vector2( -46.1875, 101.552 )
+shape = SubResource( 43 )
+
+[node name="Door" type="Sprite" parent="."]
+position = Vector2( 6526, 705 )
+scale = Vector2( 0.914063, 0.9875 )
+texture = ExtResource( 44 )
 
 [node name="Timepiece_Container" type="Node2D" parent="."]
 
@@ -778,6 +817,7 @@ text = "Quit"
 [node name="Timer" type="Timer" parent="."]
 autostart = true
 
+[connection signal="body_entered" from="Door2" to="Door2" method="_on_Door2_body_entered"]
 [connection signal="pressed" from="UI/Menu/Restart" to="UI/Menu" method="_on_Restart_pressed"]
 [connection signal="pressed" from="UI/Menu/Quit" to="UI/Menu" method="_on_Quit_pressed"]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
