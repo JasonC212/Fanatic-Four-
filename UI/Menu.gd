@@ -1,6 +1,9 @@
 extends Control
 
 
+func _ready():
+	hide()
+
 func _unhandled_input(event):
 	if event.is_action_pressed("menu"):
 		if visible:
