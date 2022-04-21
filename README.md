@@ -31,6 +31,6 @@ Jane Negus - Artist
 
 Jess Payton - Sound Designer
 
-Taylor Gibson - 
+Taylor Gibson - World Designer
 
 Jason Edwards - Programer 
