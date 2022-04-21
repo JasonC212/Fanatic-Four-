@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/133100__klankbeeld__horror-ambience-10.wav-80f08dfb75a6058897843c414c4dc27c.sample"
+
+[deps]
+
+source_file="res://Assets/sound files/133100__klankbeeld__horror-ambience-10.wav"
+dest_files=[ "res://.import/133100__klankbeeld__horror-ambience-10.wav-80f08dfb75a6058897843c414c4dc27c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
