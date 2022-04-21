@@ -2,28 +2,32 @@
 MSCH-C220 Game Jam, April 2022
 
 ## Theme
-How you thought about or interpreted the theme
+Thought about the inevitable and mortal degradation of time upon life. Running out of time 
 
 ## Game Play
-Objective
-Game-play instructions
+Try to get to the house before time runs out and the monster gets you
+
+You can run and jump using the arrow keys. Try to collect timepieces to extend your time. 
 
 ## Impediments
-Struggles or surprises you encountered during the development of the game
+the problem of trying to work on the main scene when you can only work one at a time. 
 
 ## Implementation
-Features
-Assets, or resoures used 
+
+Included animated sprites, score, music, win/lose senarios, 
+
+All visual assets are originals by Jane. This includes the monster, terrain, background, etc.
 
 Forest sound https://freesound.org/people/klankbeeld/sounds/629026/ expanded upon by Jess
-Title theme https://freesound.org/people/klankbeeld/sounds/133100/
 
+Title theme https://freesound.org/people/klankbeeld/sounds/133100/
 
 ## References
 The Player code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Character 
 
-
 ## Future Development
+
+Possible expantion of sound and maybe procedural generation of terrain. 
 
 # Created by: Fanatic Four
 Jane Negus - Artist
