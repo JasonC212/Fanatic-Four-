@@ -27,31 +27,6 @@ flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 288, 70, 32, 70 )
 
-[sub_resource type="AtlasTexture" id=8]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 224, 0, 32, 70 )
-
-[sub_resource type="AtlasTexture" id=9]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 256, 0, 32, 70 )
-
-[sub_resource type="AtlasTexture" id=10]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 288, 0, 32, 70 )
-
-[sub_resource type="AtlasTexture" id=1]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 0, 0, 32, 70 )
-
-[sub_resource type="AtlasTexture" id=14]
-flags = 4
-atlas = ExtResource( 11 )
-region = Rect2( 256, 70, 32, 70 )
-
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 11 )
@@ -82,16 +57,51 @@ flags = 4
 atlas = ExtResource( 11 )
 region = Rect2( 192, 0, 32, 70 )
 
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 256, 70, 32, 70 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 224, 0, 32, 70 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 256, 0, 32, 70 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 288, 0, 32, 70 )
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 11 )
+region = Rect2( 0, 0, 32, 70 )
+
 [sub_resource type="SpriteFrames" id=15]
 animations = [ {
-"frames": [  ],
-"loop": true,
-"name": "Attacking",
-"speed": 5.0
-}, {
 "frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ) ],
 "loop": false,
 "name": "Falling",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ) ],
+"loop": true,
+"name": "Moving",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 14 ) ],
+"loop": true,
+"name": "WallJump",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Attacking",
 "speed": 5.0
 }, {
 "frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
@@ -102,16 +112,6 @@ animations = [ {
 "frames": [ SubResource( 1 ) ],
 "loop": true,
 "name": "Idle",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 14 ) ],
-"loop": true,
-"name": "WallJump",
-"speed": 5.0
-}, {
-"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ) ],
-"loop": true,
-"name": "Moving",
 "speed": 5.0
 } ]
 
