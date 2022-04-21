@@ -2,7 +2,7 @@ extends Control
 
 
 func _ready():
-	pass
+	$Score.text = "Score : " + str(Global.total_time)
 
 
 func _on_Start_pressed():

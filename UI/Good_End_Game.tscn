@@ -38,6 +38,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Score" type="Label" parent="."]
+margin_left = 412.0
+margin_top = 250.0
+margin_right = 612.0
+margin_bottom = 290.0
+text = "Score : "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Start" type="Button" parent="."]
 margin_left = 462.0
 margin_top = 300.0

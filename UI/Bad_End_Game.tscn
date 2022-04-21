@@ -80,7 +80,11 @@ position = Vector2( 504, 310.5 )
 scale = Vector2( 1.96094, 1.97266 )
 frames = SubResource( 8 )
 animation = "move"
+<<<<<<< Updated upstream
 frame = 5
+=======
+frame = 8
+>>>>>>> Stashed changes
 playing = true
 
 [node name="Label" type="Label" parent="."]
@@ -89,6 +93,18 @@ margin_top = 200.0
 margin_right = 612.0
 margin_bottom = 250.0
 text = "You Died!"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Score" type="Label" parent="."]
+margin_left = 412.0
+margin_top = 250.0
+margin_right = 612.0
+margin_bottom = 290.0
+text = "Score : "
 align = 1
 valign = 1
 __meta__ = {
