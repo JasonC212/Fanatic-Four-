@@ -16,12 +16,11 @@ Features
 Assets, or resoures used 
 
 Forest sound https://freesound.org/people/klankbeeld/sounds/629026/ expanded upon by Jess
+Title theme https://freesound.org/people/klankbeeld/sounds/133100/
+
 
 ## References
-The terrain spritemap is from the Abstract Platformer package available at Kenney.nl.
-
-The player sprite is adaptated from MV Platformer Male by MoikMellah. CC0 Licensed. 
-The code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Character 
+The Player code was addapted from https://github.com/BL-MSCH-C220-F21/2D-Platformer-Character 
 
 
 ## Future Development
