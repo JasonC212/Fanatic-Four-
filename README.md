@@ -15,7 +15,7 @@ Struggles or surprises you encountered during the development of the game
 Features
 Assets, or resoures used 
 
-Forest sound https://freesound.org/people/klankbeeld/sounds/629026/
+Forest sound https://freesound.org/people/klankbeeld/sounds/629026/ expanded upon by Jess
 
 ## References
 The terrain spritemap is from the Abstract Platformer package available at Kenney.nl.
