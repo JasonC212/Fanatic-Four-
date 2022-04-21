@@ -6,12 +6,12 @@ func _ready():
 
 func _unhandled_input(event):
 	if event.is_action_pressed("menu"):
-		if visible:
-			hide()
-			get_tree().paused = false
-		else:
-			show()
+		if not visible:
 			get_tree().paused = true
+			show()
+		else:
+			get_tree().paused = false
+			hide()
 
 
 
