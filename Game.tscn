@@ -483,6 +483,7 @@ __meta__ = {
 }
 
 [node name="Time_Left" type="Label" parent="UI/HUD"]
+margin_left = 19.0
 margin_right = 200.0
 margin_bottom = 40.0
 text = "Time Left: 15 "
@@ -492,10 +493,10 @@ __meta__ = {
 }
 
 [node name="Total_Time" type="Label" parent="UI/HUD"]
-margin_left = 824.0
-margin_right = 1024.0
+margin_left = 820.0
+margin_right = 1007.0
 margin_bottom = 40.0
-text = "0 : Time Colected"
+text = "0 : Time Collected"
 align = 2
 valign = 1
 __meta__ = {
