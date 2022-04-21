@@ -19,7 +19,7 @@ animations = [ {
 "frames": [ SubResource( 2 ), SubResource( 3 ) ],
 "loop": true,
 "name": "move",
-"speed": 5.0
+"speed": 2.0
 } ]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -31,6 +31,7 @@ script = ExtResource( 2 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 4 )
 animation = "move"
+playing = true
 
 [node name="Area2D" type="Area2D" parent="."]
 
