@@ -1,9 +1,10 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://UI/Bad_End_Game.gd" type="Script" id=1]
 [ext_resource path="res://Assets/background/backgroundtest.png" type="Texture" id=2]
 [ext_resource path="res://Assets/spriteframes/blobbert.png" type="Texture" id=3]
 [ext_resource path="res://Assets/8bitlim.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://Assets/sound files/133100__klankbeeld__horror-ambience-10.wav" type="AudioStream" id=5]
 
 [sub_resource type="AtlasTexture" id=9]
 flags = 4
@@ -93,7 +94,7 @@ position = Vector2( 329, 305 )
 scale = Vector2( 1.96094, 1.97266 )
 frames = SubResource( 8 )
 animation = "move"
-frame = 2
+frame = 7
 playing = true
 
 [node name="Label" type="Label" parent="."]
@@ -145,6 +146,10 @@ flat = true
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true
 
 [connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
